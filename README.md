@@ -34,7 +34,8 @@ This repository demonstrates a data preprocessing and machine learning pipeline 
 - After preprocessing, all numeric features were **scaled** to bring them into a standard range (e.g., using StandardScaler or MinMaxScaler).
 - This ensures that no single feature dominates the training of the machine learning model due to differences in scale.
 
-### 5. **Result**
+---
+## 5. **Result**
 1. *For High-Variance Models (e.g., DecisionTreeClassifier)**:
    - Use bagging to significantly improve performance and reduce overfitting.
    - Consider ensemble methods like Random Forests for even better results.
